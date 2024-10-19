@@ -1,0 +1,82 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif; /* Changed the font */
+  color: rgb(0, 0, 0); /* Changed font color to white */
+  background-color: black; /* Changed background color to black */
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+.header-container h1 {
+  font-size: 3rem;
+  color: #00ff00; /* Neon green */
+  text-transform: uppercase;
+}
+
+.header-container p {
+  font-size: 1.2rem;
+  color: #9f00ff; /* Neon purple */
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  color: #00ff00; /* Neon green */
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+ul li {
+  padding: 10px;
+  background-color: #222;
+  margin-bottom: 10px;
+  border: 1px solid #9f00ff; /* Neon purple */
+}
+
+.cta a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #00ff00; /* Neon green */
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  border: 2px solid #9f00ff; /* Neon purple */
+  transition: 0.3s;
+}
+
+.cta a:hover {
+  background-color: #9f00ff; /* Neon purple */
+  border-color: #00ff00; /* Neon green */
+  color: white;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+}
